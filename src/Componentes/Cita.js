@@ -11,6 +11,7 @@ class Cita extends Component {
           </p>
           <p className="card-text">
             Fecha: <span>{fecha}</span>
+
           </p>
           <p className="card-text">
             Hora: <span>{hora}</span>
