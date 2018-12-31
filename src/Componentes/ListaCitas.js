@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Cita from "./Cita";
+import PropTypes from 'prop-types';
 class ListaCitas extends Component {
   render() {
     const mensaje =
@@ -25,5 +26,7 @@ class ListaCitas extends Component {
     );
   }
 }
-
+ListaCitas.propTypes = {
+citas:PropTypes.object.isRequired
+}
 export default ListaCitas;
